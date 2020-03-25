@@ -9,6 +9,7 @@
     "cz": "git-cz"
   },
   "lint-staged": {
+    "*.{ts,js}": "eslint",
     "*.{ts,js,json}": "prettier --check"
   },
   "husky": {
