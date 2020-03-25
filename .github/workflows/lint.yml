@@ -14,7 +14,7 @@ jobs:
       - name: Fetch cache
         uses: actions/cache@v1
         with:
-          path: $(yarn cache dir --silent)
+          path: ~/.cache/yarn
           key: ${{ runner.os }}-${{ hashFiles('yarn.lock') }}
 
       - name: Install dependencies
