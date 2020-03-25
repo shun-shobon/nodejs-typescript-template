@@ -23,6 +23,7 @@
     "commitizen": "^4.0.3",
     "cz-conventional-changelog-ja": "^0.0.2",
     "husky": "^4.2.3",
+    "lint-staged": "^10.0.9",
     "prettier": "^2.0.2"
   }
 }
