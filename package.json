@@ -2,6 +2,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "tsc --watch",
     "lint": "yarn eslint && yarn prettier",
     "lint:fix": "yarn eslint:fix && yarn prettier:fix",
     "eslint": "eslint --ignore-path .gitignore '**/*.{ts,js}'",
