@@ -6,8 +6,12 @@
     "prettier:fix": "yarn prettier --write",
     "cz": "git-cz"
   },
+  "lint-staged": {
+    "*.{ts,js,json}": "prettier --check"
+  },
   "husky": {
     "hooks": {
+      "pre-commit": "lint-staged",
       "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
