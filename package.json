@@ -2,6 +2,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "eslint": "eslint --ignore-path .gitignore '**/*.{ts,js}'",
+    "eslint:fix": "yarn eslint --fix",
     "prettier": "prettier --check --ignore-path .gitignore '**/*.{ts,js,json}'",
     "prettier:fix": "yarn prettier --write",
     "cz": "git-cz"
