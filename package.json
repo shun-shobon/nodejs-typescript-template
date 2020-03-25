@@ -2,7 +2,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "prettier": "prettier --ignore-path .gitignore '**/*.{ts,js,json}'",
+    "prettier": "prettier --check --ignore-path .gitignore '**/*.{ts,js,json}'",
+    "prettier:fix": "yarn prettier --write",
     "cz": "git-cz"
   },
   "husky": {
