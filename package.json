@@ -2,6 +2,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "prettier": "prettier --ignore-path .gitignore '**/*.{ts,js,json}'",
     "cz": "git-cz"
   },
   "husky": {
