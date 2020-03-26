@@ -17,7 +17,7 @@
   },
   "lint-staged": {
     "*.{ts,js}": "eslint",
-    "*.{ts,js,json}": "prettier --check"
+    "*.json": "prettier --check"
   },
   "husky": {
     "hooks": {
